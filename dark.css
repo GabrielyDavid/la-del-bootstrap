@@ -1,0 +1,66 @@
+/* ======== FONDO GENERAL ======== */
+body {
+  background: #0d0f12;
+  color: #e8e8e8;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+/* ======== ENCABEZADO ======== */
+header {
+  background: #11131a;
+  border-bottom: 2px solid #1f242d;
+}
+
+.title-glow {
+  color: #58a6ff;;
+  text-shadow: 0 0 10px #58a6ff;
+}
+
+/* ======== TÍTULOS ======== */
+.section-title {
+  color: #58a6ff;
+  text-shadow: 0 0 6px #58a6ff;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+/* ======== DIVIDERS ======== */
+.divider {
+  border-color: #FFFFFF;
+}
+
+/* ======== VIDEO ======== */
+.video-dark {
+  border: 2px solid #293043;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #1a1f2b;
+}
+
+/* ======== GALERÍA ======== */
+.gallery-img-dark {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery-img-dark:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 15px #00FFD5;
+}
+
+/* ======== TARJETAS ======== */
+.card-dark {
+  background: #151821;
+  border: 1px solid #242b39;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-dark:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px #58a6ff;
+}
+
+/* ======== FOOTER ======== */
+.footer-dark {
+  background: #11131a;
+  border-top: 2px solid #1f242d;
+}
